@@ -169,3 +169,14 @@ C:\Users\Suhiab\AppData\Local\Temp\opencode\apicheck5\Dalilacademy.API.deps.json
 C:\Users\Suhiab\AppData\Local\Temp\opencode\apicheck5\Dalilacademy.API.runtimeconfig.json
 C:\Users\Suhiab\AppData\Local\Temp\opencode\apicheck5\Dalilacademy.API.dll
 C:\Users\Suhiab\AppData\Local\Temp\opencode\apicheck5\Dalilacademy.API.pdb
+C:\Users\Suhiab\Desktop\dalil training\LMS\Dalilacademy\Dalilacademy.API\bin\Debug\net10.0\BCrypt-Net-Next.dll
+C:\Users\Suhiab\Desktop\dalil training\LMS\Dalilacademy\Dalilacademy.API\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Suhiab\Desktop\dalil training\LMS\Dalilacademy\Dalilacademy.API\bin\Debug\net10.0\Microsoft.Bcl.Cryptography.dll
+C:\Users\Suhiab\Desktop\dalil training\LMS\Dalilacademy\Dalilacademy.API\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Suhiab\Desktop\dalil training\LMS\Dalilacademy\Dalilacademy.API\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Suhiab\Desktop\dalil training\LMS\Dalilacademy\Dalilacademy.API\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Suhiab\Desktop\dalil training\LMS\Dalilacademy\Dalilacademy.API\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Suhiab\Desktop\dalil training\LMS\Dalilacademy\Dalilacademy.API\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Suhiab\Desktop\dalil training\LMS\Dalilacademy\Dalilacademy.API\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Suhiab\Desktop\dalil training\LMS\Dalilacademy\Dalilacademy.API\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Suhiab\Desktop\dalil training\LMS\Dalilacademy\Dalilacademy.API\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt

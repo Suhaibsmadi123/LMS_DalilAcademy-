@@ -2,12 +2,16 @@ using Dalilacademy.API.Middekware;
 using Dalilacademy.Core.Service;
 using Dalilacademy.infra.Data;
 using Dalilacademy.infra.Repository;
+using Dalilacademy.infra.Security;
 using Dalilacademy.infra.Service;
 using Dalilacademy_.Core.DTOs;
 using Dalilacademy_.Core.Repository;
 using Dalilacademy_.Core.Validdator;  
 using FluentValidation;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -65,6 +69,30 @@ builder.Services.AddProblemDetails();
 builder.Services.AddExceptionHandler<GlobalExceptionHandler>();
 
 
+var jwt =builder.Configuration.GetSection("Jwt").Get<JwtSetting>();
+builder.Services.Configure<JwtSetting>(builder.Configuration.GetSection("Jwt"));
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
+{
+    options.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuer = true,
+        ValidateAudience = true,
+        ValidateLifetime = true,
+        ValidateIssuerSigningKey = true,
+        ValidIssuer = jwt.Issuer,
+        ValidAudience = jwt.Audience,
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwt.Key)),
+        ClockSkew = TimeSpan.FromMinutes(1) // Optional: Set clock skew to zero to prevent token expiration issues
+    };
+});
+
+builder.Services.AddAuthorization();
+
+
+
+
+
+
 var app = builder.Build();//line 
  
 if (app.Environment.IsDevelopment())
@@ -86,7 +114,7 @@ if (app.Environment.IsDevelopment())
 }
 app.UseExceptionHandler();
 app.UseHttpsRedirection();
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

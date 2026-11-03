@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Suhiab\\Desktop\\dalil training\\LMS\\Dalilacademy\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C2AE9FD0-DAA4-446D-B90A-1F0740D9E0DD}|Dalilacademy .Core\\Dalilacademy.Core.csproj|c:\\users\\suhiab\\desktop\\dalil training\\lms\\dalilacademy\\dalilacademy .core\\repository\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2AE9FD0-DAA4-446D-B90A-1F0740D9E0DD}|Dalilacademy .Core\\Dalilacademy.Core.csproj|solutionrelative:dalilacademy .core\\repository\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D5E7D5FD-564C-4331-9DB5-860CC4BBE31D}|Dalilacademy.infra\\Dalilacademy.infra.csproj|c:\\users\\suhiab\\desktop\\dalil training\\lms\\dalilacademy\\dalilacademy.infra\\security\\jwtsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5E7D5FD-564C-4331-9DB5-860CC4BBE31D}|Dalilacademy.infra\\Dalilacademy.infra.csproj|solutionrelative:dalilacademy.infra\\security\\jwtsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C2AE9FD0-DAA4-446D-B90A-1F0740D9E0DD}|Dalilacademy .Core\\Dalilacademy.Core.csproj|c:\\users\\suhiab\\desktop\\dalil training\\lms\\dalilacademy\\dalilacademy .core\\dtos\\pageresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2AE9FD0-DAA4-446D-B90A-1F0740D9E0DD}|Dalilacademy .Core\\Dalilacademy.Core.csproj|solutionrelative:dalilacademy .core\\dtos\\pageresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{13782533-D536-BB49-11B4-2E6BDBC686C8}|Dalilacademy.API\\Dalilacademy.API.csproj|c:\\users\\suhiab\\desktop\\dalil training\\lms\\dalilacademy\\dalilacademy.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13782533-D536-BB49-11B4-2E6BDBC686C8}|Dalilacademy.API\\Dalilacademy.API.csproj|solutionrelative:dalilacademy.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PageResult.cs",
-              "DocumentMoniker": "C:\\Users\\Suhiab\\Desktop\\dalil training\\LMS\\Dalilacademy\\Dalilacademy .Core\\DTOs\\PageResult.cs",
-              "RelativeDocumentMoniker": "Dalilacademy .Core\\DTOs\\PageResult.cs",
-              "ToolTip": "C:\\Users\\Suhiab\\Desktop\\dalil training\\LMS\\Dalilacademy\\Dalilacademy .Core\\DTOs\\PageResult.cs",
-              "RelativeToolTip": "Dalilacademy .Core\\DTOs\\PageResult.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Suhiab\\Desktop\\dalil training\\LMS\\Dalilacademy\\Dalilacademy.API\\Program.cs",
+              "RelativeDocumentMoniker": "Dalilacademy.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Suhiab\\Desktop\\dalil training\\LMS\\Dalilacademy\\Dalilacademy.API\\Program.cs",
+              "RelativeToolTip": "Dalilacademy.API\\Program.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAqwFEAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-02T14:47:07.552Z",
+              "WhenOpened": "2026-11-03T15:28:29.854Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "IStudentRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Suhiab\\Desktop\\dalil training\\LMS\\Dalilacademy\\Dalilacademy .Core\\Repository\\IStudentRepository.cs",
-              "RelativeDocumentMoniker": "Dalilacademy .Core\\Repository\\IStudentRepository.cs",
-              "ToolTip": "C:\\Users\\Suhiab\\Desktop\\dalil training\\LMS\\Dalilacademy\\Dalilacademy .Core\\Repository\\IStudentRepository.cs",
-              "RelativeToolTip": "Dalilacademy .Core\\Repository\\IStudentRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
+              "Title": "JwtSetting.cs",
+              "DocumentMoniker": "C:\\Users\\Suhiab\\Desktop\\dalil training\\LMS\\Dalilacademy\\Dalilacademy.infra\\Security\\JwtSetting.cs",
+              "RelativeDocumentMoniker": "Dalilacademy.infra\\Security\\JwtSetting.cs",
+              "ToolTip": "C:\\Users\\Suhiab\\Desktop\\dalil training\\LMS\\Dalilacademy\\Dalilacademy.infra\\Security\\JwtSetting.cs",
+              "RelativeToolTip": "Dalilacademy.infra\\Security\\JwtSetting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-02T14:47:17.353Z",
+              "WhenOpened": "2026-11-03T14:12:23.994Z",
               "EditorCaption": ""
             }
           ]
