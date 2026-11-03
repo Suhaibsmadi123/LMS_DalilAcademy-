@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Dalilacademy .Core/Dalilacademy.Core.csproj" Id="c2ae9fd0-daa4-446d-b90a-1f0740d9e0dd" />
+  <Project Path="Dalilacademy.API/Dalilacademy.API.csproj" />
+  <Project Path="Dalilacademy.infra/Dalilacademy.infra.csproj" Id="d5e7d5fd-564c-4331-9db5-860cc4bbe31d" />
+</Solution>

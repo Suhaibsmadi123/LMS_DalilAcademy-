@@ -1,0 +1,30 @@
+C:\Users\Suhiab\Desktop\dalil training\LMS\Dalilacademy\Dalilacademy.infra\bin\Debug\net10.0\Dalilacademy.infra.deps.json
+C:\Users\Suhiab\Desktop\dalil training\LMS\Dalilacademy\Dalilacademy.infra\bin\Debug\net10.0\Dalilacademy.infra.dll
+C:\Users\Suhiab\Desktop\dalil training\LMS\Dalilacademy\Dalilacademy.infra\bin\Debug\net10.0\Dalilacademy.infra.pdb
+C:\Users\Suhiab\Desktop\dalil training\LMS\Dalilacademy\Dalilacademy.infra\bin\Debug\net10.0\Dalilacademy.Core.dll
+C:\Users\Suhiab\Desktop\dalil training\LMS\Dalilacademy\Dalilacademy.infra\bin\Debug\net10.0\Dalilacademy.Core.pdb
+C:\Users\Suhiab\Desktop\dalil training\LMS\Dalilacademy\Dalilacademy.infra\obj\Debug\net10.0\Dalilacademy.infra.csproj.AssemblyReference.cache
+C:\Users\Suhiab\Desktop\dalil training\LMS\Dalilacademy\Dalilacademy.infra\obj\Debug\net10.0\Dalilacademy.infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Suhiab\Desktop\dalil training\LMS\Dalilacademy\Dalilacademy.infra\obj\Debug\net10.0\Dalilacademy.infra.AssemblyInfoInputs.cache
+C:\Users\Suhiab\Desktop\dalil training\LMS\Dalilacademy\Dalilacademy.infra\obj\Debug\net10.0\Dalilacademy.infra.AssemblyInfo.cs
+C:\Users\Suhiab\Desktop\dalil training\LMS\Dalilacademy\Dalilacademy.infra\obj\Debug\net10.0\Dalilacademy.infra.csproj.CoreCompileInputs.cache
+C:\Users\Suhiab\Desktop\dalil training\LMS\Dalilacademy\Dalilacademy.infra\obj\Debug\net10.0\Dalilaca.87D9F275.Up2Date
+C:\Users\Suhiab\Desktop\dalil training\LMS\Dalilacademy\Dalilacademy.infra\obj\Debug\net10.0\Dalilacademy.infra.dll
+C:\Users\Suhiab\Desktop\dalil training\LMS\Dalilacademy\Dalilacademy.infra\obj\Debug\net10.0\refint\Dalilacademy.infra.dll
+C:\Users\Suhiab\Desktop\dalil training\LMS\Dalilacademy\Dalilacademy.infra\obj\Debug\net10.0\Dalilacademy.infra.pdb
+C:\Users\Suhiab\Desktop\dalil training\LMS\Dalilacademy\Dalilacademy.infra\obj\Debug\net10.0\ref\Dalilacademy.infra.dll
+C:\Users\Suhiab\AppData\Local\Temp\opencode\apicheck\Dalilacademy.infra.deps.json
+C:\Users\Suhiab\AppData\Local\Temp\opencode\apicheck\Dalilacademy.infra.dll
+C:\Users\Suhiab\AppData\Local\Temp\opencode\apicheck\Dalilacademy.infra.pdb
+C:\Users\Suhiab\AppData\Local\Temp\opencode\apicheck2\Dalilacademy.infra.deps.json
+C:\Users\Suhiab\AppData\Local\Temp\opencode\apicheck2\Dalilacademy.infra.dll
+C:\Users\Suhiab\AppData\Local\Temp\opencode\apicheck2\Dalilacademy.infra.pdb
+C:\Users\Suhiab\AppData\Local\Temp\opencode\apicheck3\Dalilacademy.infra.deps.json
+C:\Users\Suhiab\AppData\Local\Temp\opencode\apicheck3\Dalilacademy.infra.dll
+C:\Users\Suhiab\AppData\Local\Temp\opencode\apicheck3\Dalilacademy.infra.pdb
+C:\Users\Suhiab\AppData\Local\Temp\opencode\apicheck4\Dalilacademy.infra.deps.json
+C:\Users\Suhiab\AppData\Local\Temp\opencode\apicheck4\Dalilacademy.infra.dll
+C:\Users\Suhiab\AppData\Local\Temp\opencode\apicheck4\Dalilacademy.infra.pdb
+C:\Users\Suhiab\AppData\Local\Temp\opencode\apicheck5\Dalilacademy.infra.deps.json
+C:\Users\Suhiab\AppData\Local\Temp\opencode\apicheck5\Dalilacademy.infra.dll
+C:\Users\Suhiab\AppData\Local\Temp\opencode\apicheck5\Dalilacademy.infra.pdb

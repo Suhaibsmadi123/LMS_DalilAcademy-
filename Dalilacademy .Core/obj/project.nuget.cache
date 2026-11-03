@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "EaHzRcWHYk8=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Suhiab\\Desktop\\dalil training\\LMS\\Dalilacademy\\Dalilacademy .Core\\Dalilacademy.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Suhiab\\.nuget\\packages\\fluentvalidation\\12.2.0\\fluentvalidation.12.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,47 @@
+﻿using Dalilacademy_.Core.DTOs;
+using Dalilacademy_.Core.Repository;
+using Dalilacademy.Core.Service;
+using FluentValidation;
+using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+
+namespace Dalilacademy.infra.Service
+{
+    public class StudentService(
+        IStudentRepository studentRepository,
+        IValidator<CreateStudentDto> createValidator,
+        IValidator<UpdateStudentDto> updateValidator) : IStudentService
+    {
+        public async Task<List<StudentResponseDto>> GetAllasync()
+        {
+            return await studentRepository.GetAllasync();
+        }
+
+        public async Task<StudentResponseDto?> GetByIdasync(int id)
+        {
+            return await studentRepository.GetByIdasync(id);
+        }
+
+        public async Task<StudentResponseDto> Createasync(CreateStudentDto student)
+        {
+            await createValidator.ValidateAndThrowAsync(student);
+            return await studentRepository.Createasync(student);
+        }
+
+        public async Task<StudentResponseDto> Updateasync(int id, UpdateStudentDto updatedStudent)
+        {
+            await updateValidator.ValidateAndThrowAsync(updatedStudent);
+
+            var existing = await studentRepository.GetByIdasync(id)
+                ?? throw new InvalidOperationException("Student not found");
+
+            return await studentRepository.Updateasync(id, updatedStudent);
+        }
+
+        public async Task<bool> Deleteasync(int id)
+        {
+            return await studentRepository.Deleteasync(id);
+        }
+    }
+}

@@ -1,0 +1,86 @@
+﻿using Dalilacademy.Core.Entities;
+using Dalilacademy.infra.Data;
+using Dalilacademy_.Core.DTOs;
+using Dalilacademy_.Core.Exciptions;
+using Dalilacademy_.Core.Mapping;
+using Dalilacademy_.Core.Repository;
+using Microsoft.EntityFrameworkCore;
+using Npgsql;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace Dalilacademy.infra.Repository
+{
+    public class CourseRepositore(AppDbContext db) : ICourserepository
+    {
+        public async Task<PageResult<CourseResponseDTo>> Getpageasync(int page, int pagesize)
+        { var count = await db.Coures.CountAsync();
+            var items= await db.Coures
+                .OrderBy(c=> c.id)
+                .Skip((page-1)*pagesize)
+                .Take(pagesize)
+                .Select(c => new CourseResponseDTo(
+                    c.id,
+                    c.title,
+                    c.price,
+                    c.instructor != null ? c.instructor.fullname : string.Empty))
+                .ToListAsync();
+            return new PageResult<CourseResponseDTo>(items, page, pagesize, count);
+        }
+
+        public async Task<CourseResponseDTo?> GetByIdasync(int id)
+        {
+            return await db.Coures
+                .Where(c => c.id == id)
+                .Select(c => new CourseResponseDTo(
+                    c.id,
+                    c.title,
+                    c.price,
+                    c.instructor != null ? c.instructor.fullname : string.Empty))
+                .FirstOrDefaultAsync();
+        }
+
+        public async Task<CourseResponseDTo> Createasync(CreateCourseDTo courseDto)
+        {
+            try
+            {
+                var course = courseDto.ToEntity();
+                db.Coures.Add(course);
+                await db.SaveChangesAsync();
+
+                return (await GetByIdasync(course.id))!;
+            }
+            catch (DbUpdateConcurrencyException ex) when (ex.InnerException is PostgresException { SqlState: PostgresErrorCodes.UniqueViolation })
+            {
+                throw new ConflictException("A course with the same title already exists.");
+            }
+        }
+
+        public async Task<CourseResponseDTo> Updateasync(int id, UpdateCourseDto updatedCourse)
+        {
+            var existingCourse = await db.Coures.FirstOrDefaultAsync(c => c.id == id);
+            if (existingCourse == null)
+            {
+                throw new InvalidOperationException("Course not found");
+            }
+
+            existingCourse.UpdateEntity(updatedCourse);
+            await db.SaveChangesAsync();
+
+            return (await GetByIdasync(id))!;
+        }
+
+        public async Task<bool> Deleteasync(int id)
+        {
+            var existingCourse = await db.Coures.FindAsync(id);
+            if (existingCourse == null)
+            {
+                return false;
+            }
+            db.Coures.Remove(existingCourse);
+            await db.SaveChangesAsync();
+            return true;
+        }
+    }
+}
